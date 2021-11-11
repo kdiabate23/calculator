@@ -106,7 +106,7 @@ public class MathTutorKD {
 			
 			
 			
-			System.out.print("\nEnter Y for yes or N for no: ");
+			System.out.print("\nDo You want to perform another calculation?Enter Y for yes or N for no: ");
 			input = keyboard.nextLine(); // Read a line.
 			repeat = input.charAt(0); // Get the first char.
 			
