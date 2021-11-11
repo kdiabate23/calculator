@@ -32,7 +32,7 @@ public class MathTutorKD {
 				int answer = in.nextInt();
 				if(answer == number1 + number2)   // Check if user entered the right answer
 				{
-					System.out.println("Correct");  // Display this message if user got the answer right
+					System.out.println("Your answer is correct!");  // Display this message if user got the answer right
 				}else
 				{
 					System.out.println("Your answer is wrong. The correct answer is "+ (number1 + number2)); // display this
@@ -49,7 +49,7 @@ public class MathTutorKD {
 					int answer = in.nextInt(); // hold answer
 					if(answer == (number1 - temp))
 					{
-						System.out.println("Correct");
+						System.out.println("Your answer is correct!");
 					}else
 					{
 						System.out.println("Your answer is wrong. The correct answer is "+(number1 - temp));
@@ -61,7 +61,7 @@ public class MathTutorKD {
 					int answer = in.nextInt();
 					if(answer == (number1 - number2))
 					{
-						System.out.println("Correct");
+						System.out.println("Your answer is correct!");
 					}else
 					{
 						System.out.println("Your answer is wrong. The correct answer is "+ (number1 - number2));
@@ -73,7 +73,7 @@ public class MathTutorKD {
 				int answer = in.nextInt();
 				if(answer == number1 * number2)
 				{
-					System.out.println("Correct");
+					System.out.println("Your answer is correct!");
 				}else
 				{
 					System.out.println("Your answer is wrong. The correct answer is "+ (number1 * number2));
@@ -87,7 +87,7 @@ public class MathTutorKD {
 					int answer = in.nextInt();
 					if(answer == number1 / number2)
 					{
-						System.out.println("Correct");
+						System.out.println("Your answer is correct!");
 					}else
 					{
 						System.out.println("Your answer is wrong. The correct answer is "+(number1 / number2));
